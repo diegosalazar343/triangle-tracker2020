@@ -24,16 +24,19 @@ $(document).ready(function() {
     determineTriangleType(side1, side2, side3);
 
     if (triangle === "equilateral") {
-      $("div").hide();
-      $("div").show();
+      $("#result").hide();
+      $("#result").show();
+      $("#answer").text("equilateral");
       $("#equilateral").show();
     } else if (triangle === "isosceles") {
-      $("div").hide();
-      $("div").show();
+      $("#result").hide();
+      $("#result").show();
+      $("#answer").text("isosceles");
       $("#isosceles").show();
     } else if (triangle === "scalene") {
-      $("div").hide();
-      $("div").show();
+      $("#result").hide();
+      $("#result").show();
+      $("#answer").text("scalene");
       $("#scalene").show();
     } else {
       alert("Those measurements won't create a triangle.");
