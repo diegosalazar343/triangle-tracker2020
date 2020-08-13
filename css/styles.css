@@ -1,15 +1,15 @@
 #result {
-  display: hidden;
+  display: none;
 }
 
 #equilateral {
-  display: hidden
+  display: none;
 }
 
 #isosceles {
-  display: hidden
+  display: none;
 }
 
 #scalene {
-  display: hidden
+  display: none;
 }
