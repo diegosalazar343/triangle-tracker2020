@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script></script>
+  <script src="js/scripts.js"></script>
+  <title>Triangles</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Triangles</h1>
+    <p>What type of triangle is this?</p>
+
+    <form id="triangle">
+      <label for="sideA">Side A</label>
+      <input id="sideA" type="text">
+      <label for="sideB">Side B</label>
+      <input id="sideB" type="text">
+      <label for="sideC">Side C</label>
+      <input id="sideC" type="text">
+
+      <button type="submit" class="btn">Calculate what triangle this is</button>
+    </form>
+
+    <div id="result">
+      <p>The triangle is a(n) $<span id="result"></span>
+    </div>
+  </div>
+</body>
+</html>
